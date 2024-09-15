@@ -58,6 +58,13 @@ To use Mita, follow these steps:
 - `-t, --target` : Target IP address
 - `-g, --gateway` : Gateway IP address
 
-  **Note:** For intercepting HTTPS traffic, consider using [SSLstrip](https://www.owasp.org/index.php/Category:OWASP_SSLStrip). SSLstrip can downgrade HTTPS connections to HTTP, which allows capturing sensitive data that would otherwise be encrypted.
+  **Note:**
+Use wireshark and netcat to receive packets and data from the target, I won't explain much about this, ask chatgpt.
 
+
+For intercepting HTTPS traffic, consider using [SSLstrip](https://www.owasp.org/index.php/Category:OWASP_SSLStrip). SSLstrip can downgrade HTTPS connections to HTTP, which allows capturing sensitive data that would otherwise be encrypted.
+
+
+
+Start dns2proxy as well as sslstrip.
 https://github.com/singe/dns2proxy

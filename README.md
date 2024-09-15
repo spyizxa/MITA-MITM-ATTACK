@@ -59,8 +59,7 @@ To use Mita, follow these steps:
 - `-g, --gateway` : Gateway IP address
 
   **Note:**
-Use wireshark and netcat to receive packets and data from the target, I won't explain much about this, ask chatgpt.
-
+YOU HAVE CHOSEN THE VICTIM... FINALLY, WE MUST READ THE COMING PACKETS, OF COURSE THERE ARE ACTIVITIES THAT THE TARGET HAS DONE IN THE COMING PACKETS... FINALLY, YOU NEED TO USE A LISTENER TO RECEIVE THE PACKETS, YOU CAN ASK THIS ON CHATGPT. ANYWAY, MY RECOMMENDATION IS USE WIRESHARK OR NETCAT!
 
 For intercepting HTTPS traffic, consider using [SSLstrip](https://www.owasp.org/index.php/Category:OWASP_SSLStrip). SSLstrip can downgrade HTTPS connections to HTTP, which allows capturing sensitive data that would otherwise be encrypted.
 

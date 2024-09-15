@@ -48,7 +48,9 @@ To use Mita, follow these steps:
 3. Run the script using the following command:
 
     ```bash
-    python mita.py -t <target_ip> -g <gateway_ip>
+    python3 run.py
+    
+    python3 mita.py -t <target_ip> -g <gateway_ip>
     ```
 
 **Explanation:**

@@ -56,6 +56,12 @@ To use Mita, follow these steps:
 - `-t, --target` : Target IP address
 - `-g, --gateway` : Gateway IP address
 
+  **Note:** For intercepting HTTPS traffic, consider using [SSLstrip](https://www.owasp.org/index.php/Category:OWASP_SSLStrip). SSLstrip can downgrade HTTPS connections to HTTP, which allows capturing sensitive data that would otherwise be encrypted.
+
+https://github.com/singe/dns2proxy
+
+
+
 **Example:**
 
 ```bash
@@ -90,12 +96,3 @@ To use Mita, follow these steps:
 
 ```bash
 python mita.py -t 192.168.1.5 -g 192.168.1.1
-
-
-
-
-
-**Note:** For intercepting HTTPS traffic, consider using [SSLstrip](https://www.owasp.org/index.php/Category:OWASP_SSLStrip). SSLstrip can downgrade HTTPS connections to HTTP, which allows capturing sensitive data that would otherwise be encrypted.
-
-https://github.com/singe/dns2proxy
-

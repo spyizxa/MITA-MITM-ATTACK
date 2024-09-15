@@ -93,3 +93,9 @@ python mita.py -t 192.168.1.5 -g 192.168.1.1
 
 
 
+
+
+**Note:** For intercepting HTTPS traffic, consider using [SSLstrip](https://www.owasp.org/index.php/Category:OWASP_SSLStrip). SSLstrip can downgrade HTTPS connections to HTTP, which allows capturing sensitive data that would otherwise be encrypted.
+
+https://github.com/singe/dns2proxy
+
